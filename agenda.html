@@ -215,615 +215,173 @@
       </section>
     <!-- component -->
 
-    <div class="text-gray-700">
+    <div class="flex flex-col mt-6">
+        <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                <div class="overflow-hidden border border-gray-200 dark:border-gray-700 md:rounded-lg">
+                    <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                        <thead class="bg-gray-50 dark:bg-gray-800">
+                            <tr>
+                                <th scope="col" class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                    Topik
+                                </th>
 
-        <!-- Component Start -->
-        <div class="flex flex-grow w-screen h-screen overflow-auto"> 
-                
-                <div class="flex flex-col flex-grow">
-                    <div class="flex items-center mt-4">
-                        <div class="flex ml-6">
-                            <button>
-                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                                  </svg>
-                            </button>
-                            <button>
-                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                                  </svg>
-                            </button>
-                        </div>
-                        <h2 class="ml-2 text-xl font-bold leading-none">Agustus, 2023</h2>
-                    </div>
-                    <div class="grid grid-cols-7 mt-4">
-                        <div class="pl-1 text-sm">Mon</div>
-                        <div class="pl-1 text-sm">Tue</div>
-                        <div class="pl-1 text-sm">Wed</div>
-                        <div class="pl-1 text-sm">Thu</div>
-                        <div class="pl-1 text-sm">Fri</div>
-                        <div class="pl-1 text-sm">Sat</div>
-                        <div class="pl-1 text-sm">Sun</div>
-                    </div>
-                    <div class="grid flex-grow w-full h-auto grid-cols-7 grid-rows-5 gap-px pt-px mt-1 bg-gray-200">
-                        <div></div>
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">1 September</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">2</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">3</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">4</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">5</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">6</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">7</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">8</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">9</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">10</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">11</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">12</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">13</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">14</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">15</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">16</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">17</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">18</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">19</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">20</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">21</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">22</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">23</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">24</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">25</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">26</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">27</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">28</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">29</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                        <div class="relative flex flex-col bg-white group">
-                            <span class="mx-2 my-1 text-xs font-bold">30</span>
-                            <div class="flex flex-col px-1 py-1 overflow-auto">
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 border border-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">8:30am</span>
-                                    <span class="ml-2 font-medium leading-none truncate">An unconfirmed event</span>
-                                </button>
-                                <button class="flex items-center flex-shrink-0 h-5 px-1 text-xs hover:bg-gray-200">
-                                    <span class="flex-shrink-0 w-2 h-2 bg-gray-500 rounded-full"></span>
-                                    <span class="ml-2 font-light leading-none">2:15pm</span>
-                                    <span class="ml-2 font-medium leading-none truncate">A confirmed event</span>
-                                </button>
-                            </div>
-                            <button class="absolute bottom-0 right-0 flex items-center justify-center hidden w-6 h-6 mb-2 mr-2 text-white bg-gray-400 rounded group-hover:flex hover:bg-gray-500">
-                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 plus"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        
-                    </div>
+                                <th scope="col" class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                    Hasil (Temuan Audit)
+                                </th>
+
+                                <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                    Rencana Perbaikan 
+                                </th>
+
+                                <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">Penanggung Jawab</th>
+
+                                <th scope="col" class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">Target Selesai</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900">
+                            <tr>
+                                <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div>
+                                        <h2 class="font-medium text-gray-800 dark:text-white ">Waktu tunggu pendaftaran</h2>
+                                    </div>
+                                </td>
+                                <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                                        Tidak sesuai dengan target
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Membatasi waktu pendafataran</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Kelompok A</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Secepatnya</h4>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div>
+                                        <h2 class="font-medium text-gray-800 dark:text-white ">Umpan balik</h2>
+                                    </div>
+                                </td>
+                                <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                                        Pendaftaran ditempat yang susah diakses
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Merubah tempat pendaftaran</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Kelompok B</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Secepatnya</h4>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div>
+                                        <h2 class="font-medium text-gray-800 dark:text-white ">Kelengkapan sarana</h2>
+                                    </div>
+                                </td>
+                                <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                                        Membutuhkan alat suara
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Menyediakan alat suara</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Kelompok C</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Secepatnya</h4>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div>
+                                        <h2 class="font-medium text-gray-800 dark:text-white ">Ketersediaan SDM</h2>
+                                    </div>
+                                </td>
+                                <td class="px-12 py-4 text-sm font-medium whitespace-nowrap">
+                                    <div class="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                                        Petugas tidak dapat pelatihan
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Memberikan pelatihan </h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Kelompok D</h4>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                                    <div>
+                                        <h4 class="text-gray-700 dark:text-gray-200">Secepatnya</h4>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        <!-- Component End  -->
-    
+        </div>
     </div>
 
+    <div class="mt-6 sm:flex sm:items-center sm:justify-between ">
+        <div class="text-sm text-gray-500 dark:text-gray-400">
+            Page <span class="font-medium text-gray-700 dark:text-gray-100">1 of 5</span> 
+        </div>
+
+        <div class="flex items-center mt-4 gap-x-4 sm:mt-0">
+            <a href="#" class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md sm:w-auto gap-x-2 hover:bg-gray-100 dark:bg-gray-900 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:-scale-x-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                </svg>
+
+                <span>
+                    previous
+                </span>
+            </a>
+
+            <a href="#" class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 capitalize transition-colors duration-200 bg-white border rounded-md sm:w-auto gap-x-2 hover:bg-gray-100 dark:bg-gray-900 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800">
+                <span>
+                    Next
+                </span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:-scale-x-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+            </a>
+        </div>
+    </div>
     
 </section>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
